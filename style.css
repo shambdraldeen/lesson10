@@ -1,0 +1,154 @@
+body {
+   display: block;
+   margin: 0 auto;
+   /*حذفت المارجن من جوانب البودي*/
+
+}
+
+.name, h2 {
+   /* كيف بدي حطلو كفر للخط ما اخذ شادو*/
+   text-align: center;
+   margin: 0;
+   font-size: 2rem;
+   color: #1A5A54;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   /*ماعرفت ضيف الخط*/
+   padding: 35px;
+
+
+}
+
+h3 {
+   color: #00ADFE;
+   font-family: 'Courier New', Courier, monospace;
+
+}
+
+hero-section {
+   display: block;
+   /* backgroundمن أجل أن أضع له */
+   background: rgb(9, 121, 118);
+   background: radial-gradient(circle, rgba(9, 121, 118, 1) 0%, rgba(135, 206, 235, 0.26094187675070024) 0%, rgba(135, 206, 235, 1) 100%);
+   height: 615px;
+   margin-bottom: 30px;
+}
+
+img#mountin {
+   width: 800px;
+   height: 400px;
+   margin: 0 200px 0 270px;
+}
+
+img#cloud {
+   width: 300px;
+   height: 150px;
+   position: relative;
+   /*بالنسبة لمين؟؟؟؟؟؟*/
+   bottom: 450px;
+   /*لمن عم كبر الرقم عم تطلع الغيمة لفوق ليش؟*/
+   margin-left: 200px;
+
+}
+
+img#cloud2 {
+   width: 300px;
+   height: 150px;
+   position: relative;
+   bottom: 700px;
+   margin-left: 900px;
+}
+
+.Right img {
+   float: right;
+   width: 200px;
+   height: 200px;
+}
+
+.Left img {
+   float: left;
+   width: 200px;
+   height: 200px;
+}
+
+img#avatar {
+   width: 300px;
+   height: 300px;
+   margin-left: 520px;
+}
+
+.hello, h1 {
+   font-size: 2em;
+   text-align: center;
+   color: #1A5A54;
+}
+
+pre#text {
+   color: #515570;
+   font-size: 1.5rem;
+   display: block;
+   text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-bottom: 40px;
+}
+
+/*#point{
+   display:block;
+   color: skyblue;
+   text-align: center;
+
+}*/
+.point1 {
+   width: 20px;
+   margin-bottom: 20px;
+}
+
+#point {
+   display: block;
+   text-align: center;
+}
+
+.Right, .Left {
+
+   width: 600px;
+   height: 200px;
+   margin: 0 auto;
+   margin-bottom: 40px;
+}
+
+p {
+   font-size: 1.2rem;
+   color: #515570;
+}
+
+footer {
+   display: block;
+   background-color: #00ADFE;
+   height: 60px;
+   text-align: center;
+
+}
+
+table {
+   display: inline-block;
+   color: #252d63;
+
+}
+
+p#foot {
+   color: antiquewhite;
+   margin: 0;
+}
+
+#end {
+   text-align: center;
+}
+
+input {
+   background-color: #00ADFE;
+   width: 150px;
+   height: 30px;
+   border-radius: 10px;
+   border: solid #1A5A54;
+   margin-left: 600px;
+   margin-bottom: 30px;
+}
